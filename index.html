@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website IL Kecil</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff7f7; /* Soft pink */
+      color: #333;
+    }
+
+    /* Header Styles */
+    .header {
+      background-color: pink;
+      background-position: center;
+      text-align: center;
+      color: white;
+      padding: 120px 20px;
+      border-radius: 0 0 50px 50px;
+      position: relative;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      margin: 10px 0 20px;
+    }
+
+    .header .btn-primary {
+      background: #ff69b4;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .header .btn-primary:hover{
+      background: #ff1493;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #ffdae1;
+      padding: 15px 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+      color: #d45d79;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .navbar a:hover {
+      color: #ff577f;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #ffe5ec;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .dropdown-content a {
+      color: #d45d79;
+      padding: 10px 20px;
+      display: block;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ffd1d8;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Content Section */
+    .content {
+      background-color: #fff;
+      padding: 30px;
+      margin: 40px auto;
+      max-width: 80%;
+      border-radius: 20px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .content h2 {
+      color: #ff69b4;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    /* Footer Section */
+    .footer {
+      background: #ffe4e1;
+      text-align: center;
+      padding: 15px 20px;
+      border-radius: 50px 50px 0 0;
+      box-shadow: 0px -8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer p {
+      font-size: 14px;
+      color: #ff69b4;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+ <!-- Header Section -->
+ <div class="header">
+  <h1>Selamat Datang di Website IL Kecil</h1>
+  <p>Kerja Sama & SDGs di Indonesia</p>
+  <a href="#content" class="btn-primary">Jelajahi Lebih Lanjut</a>
+</div>
+
+  <!-- Navbar Section -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <a href="#">IPS</a>
+      <div class="dropdown-content">
+        <a href="SDGS.html">SDGs</a>
+        <a href="Kerja Sama.html">Kerja Sama</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="#">PPKN</a>
+      <div class="dropdown-content">
+        <a href="Indonesia-malaysia.html">Indonesia-Malaysia</a>
+        <a href="SDGS.html">SDGs</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Section -->
+  <div id="content" class="content">
+    <h2>Tentang website</h2>
+    <p>Hai hai semuaa, Perkenalkan Nama saya Vio Dari kelas IX-1 / 36.</p>
+    <p>Website kecil ini merupakan website sederhana yang berisi informasi tentang Sustainable Development Goals (SDGs) dan berbagai 
+      bentuk kerja sama, baik di tingkat nasional maupun internasional. Saya berharap dengan adanya informasi ini, kalian bisa mendapatkan
+       wawasan yang lebih luas tentang pentingnya peran SDGs dalam menciptakan dunia yang lebih baik, serta bagaimana kerja sama antarnegara 
+       atau antarorganisasi dapat membantu mewujudkan tujuan-tujuan tersebut.</p>
+    <p>Website ini dirancang untuk memberikan pemahaman yang mudah dipahami oleh semua 
+      kalangan, termasuk pelajar, agar semakin banyak orang yang sadar akan pentingnya kontribusi individu maupun 
+      kolektif dalam mendukung keberlanjutan dan kesejahteraan bersama. Semoga informasi yang kami sajikan dapat menjadi 
+      langkah awal bagi kalian untuk mendalami dan terlibat lebih jauh dalam isu-isu global yang penting ini.</p>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <p>© 2024 Website IL Kecil | IX-1/36</p>
+  </div>
+</body>
+</html>
